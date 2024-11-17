@@ -30,7 +30,7 @@ const Header = () => {
                 <div className='w-8 h-[1.5px] bg-zinc-50' />
             </button>
 
-            <div className={`fixed top-0 right-0 w-full h-svh bg-abha-900 backdrop-blur-md z-50 bg-opacity-40 text-zinc-50 transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
+            <div className={`fixed top-0 right-0 w-full h-screen bg-abha-900 backdrop-blur-md z-50 bg-opacity-40 text-zinc-50 transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
                 <button className='absolute top-8 left-8 w-full bg-zinc-50 bg-opacity-10 py-3 pl-3 rounded-l-md' onClick={toggleMenu}>
                     <img src={Back} alt='Back' className='w-9' />
                 </button>

@@ -56,7 +56,7 @@ const Heading = () => {
                 <div ref={addToRefs} className='w-full lg:w-1/4 text-center border-zinc-50 border-solid border-[1px] rounded-xl p-8 bg-white bg-opacity-5 backdrop-blur-md relative duration-200' >
                     <div className='absolute -top-12 left-0 w-full '>
                         <div className='w-24 h-24 mx-auto rounded-full bg-white bg-opacity-5 flex justify-center items-center'>
-                            <div className='w-16 h-16 mx-auto rounded-full bg-white bg-opacity-5 backdrop-blur-md flex justify-center items-center border-solid border-white border-[1px]'>
+                            <div className='w-16 h-16 mx-auto rounded-full bg-[#373D4B] flex justify-center items-center border-solid border-white border-[1px]'>
                                 <img src={FingerPrint} alt='Finger Print' className='w-2/4 object-contain' />
                             </div>
                         </div>
@@ -68,7 +68,7 @@ const Heading = () => {
                 <div ref={addToRefs} className='w-full lg:w-1/4 text-center border-zinc-50 border-solid border-[1px] rounded-xl p-8 bg-white bg-opacity-5 backdrop-blur-md relative duration-200'>
                     <div className='absolute -top-12 left-0 w-full '>
                         <div className='w-24 h-24 mx-auto rounded-full bg-white bg-opacity-5 flex justify-center items-center'>
-                            <div className='w-16 h-16 mx-auto rounded-full bg-white bg-opacity-5 backdrop-blur-md flex justify-center items-center border-solid border-white border-[1px]'>
+                            <div className='w-16 h-16 mx-auto rounded-full bg-[#373D4B] flex justify-center items-center border-solid border-white border-[1px]'>
                                 <img src={P2P} alt='Peer 2 Peer' className='w-2/4 object-contain' />
                             </div>
                         </div>
@@ -80,7 +80,7 @@ const Heading = () => {
                 <div ref={addToRefs} className='w-full lg:w-1/4 text-center border-zinc-50 border-solid border-[1px] rounded-xl p-8 bg-white bg-opacity-5 backdrop-blur-md relative duration-200'>
                     <div className='absolute -top-12 left-0 w-full '>
                         <div className='w-24 h-24 mx-auto rounded-full bg-white bg-opacity-5 flex justify-center items-center'>
-                            <div className='w-16 h-16 mx-auto rounded-full bg-white bg-opacity-5 backdrop-blur-md flex justify-center items-center border-solid border-white border-[1px]'>
+                            <div className='w-16 h-16 mx-auto rounded-full bg-[#373D4B] flex justify-center items-center border-solid border-white border-[1px]'>
                                 <img src={Globe} alt='Globe' className='w-2/4 object-contain' />
                             </div>
                         </div>
@@ -92,7 +92,7 @@ const Heading = () => {
                 <div ref={addToRefs} className='w-full lg:w-1/4 text-center border-zinc-50 border-solid border-[1px] rounded-xl p-8 bg-white bg-opacity-5 backdrop-blur-md relative duration-200'>
                     <div className='absolute -top-12 left-0 w-full '>
                         <div className='w-24 h-24 mx-auto rounded-full bg-white bg-opacity-5 flex justify-center items-center'>
-                            <div className='w-16 h-16 mx-auto rounded-full bg-white bg-opacity-5 backdrop-blur-md flex justify-center items-center border-solid border-white border-[1px]'>
+                            <div className='w-16 h-16 mx-auto rounded-full bg-[#373D4B] flex justify-center items-center border-solid border-white border-[1px]'>
                                 <img src={Digital} alt='Digital Independence' className='w-2/4 object-contain' />
                             </div>
                         </div>

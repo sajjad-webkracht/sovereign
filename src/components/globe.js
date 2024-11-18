@@ -34,14 +34,14 @@ const GlobeMesh = () => {
         <mesh ref={globeRef}>
             <sphereGeometry args={[4, 32, 32]} />
             <meshStandardMaterial
-                color='#1975FA'
+                color='#5175a8'
                 transparent
                 opacity={0.5}
                 wireframe
             />
             <points>
                 <sphereGeometry args={[4.01, 32, 32]} />
-                <pointsMaterial color='#334C70' size={0.02} />
+                <pointsMaterial color='#4c5a6e' size={0.02} />
             </points>
         </mesh>
     );

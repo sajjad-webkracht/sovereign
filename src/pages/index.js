@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useEffect } from "react"
 import Header from "../components/header"
 import Heading from "../components/heading"
 import Uses from "../components/uses"
@@ -8,6 +9,11 @@ import Globe from "../components/globe"
 import Seo from "../components/seo" 
 
 const IndexPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  
   return (
     <main className="font-red-hat relative">
         <Introduction />

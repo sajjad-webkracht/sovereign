@@ -5,3 +5,7 @@
 body {
     background-color: #070f21;
 }
+
+.no-scroll {
+    overflow: hidden !important;
+  }

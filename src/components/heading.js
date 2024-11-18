@@ -48,7 +48,7 @@ const Heading = () => {
 
 
     return (
-        <div className='px-8 md:px-16 py-8 flex gap-8 flex-col justify-between items-center relative'>
+        <div className='px-8 md:px-16 py-8 flex gap-8 flex-col justify-between items-center relative z-40'>
             <span className='rounded-md border-solid border-zinc-50 text-zinc-50 text-sm border-[1px] px-10 py-3 bg-white bg-opacity-5 backdrop-blur-md text-center'>8.2 Billion Potential Users</span>
             <h1 className='bg-gradient-to-r from-white to-zinc-300 text-4xl md:text-5xl bg-clip-text text-transparent text-center'>Own Your <b>Identity</b></h1>
             <span className='text-zinc-400 text-base md:text-xl md:w-2/3 -mt-4 md:mt-0 text-center'>We envision a new form of citizenship where each individual can belong, participate, and be recognized beyond borders and institutions.</span>
